@@ -6,6 +6,7 @@ class Solution
     int SecondLargest(vector<int> &nums)
     {
         /*
+        //Time complexity = O(n*logn)
         int n = nums.size();
         if(n<2)
         {
@@ -25,6 +26,7 @@ class Solution
         }
         return secoondLargest;
         */
+       // Time Complexity = O(2n)
        int Largest = nums[0];
        for(int i=1; i<nums.size(); i++)
        {
